@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             var intBox = new Box<int>();
-            intBox.SetValue(20);
+            intBox.SetValue(10);
             Console.WriteLine("Value: " + intBox.GetValue());
 
             var stringBox = new Box<string>();
