@@ -17,10 +17,10 @@
             Console.WriteLine("Value (after SetValue): " + intBox.GetValue());
 
             var stringBox1 = new Box<string>();
-            stringBox.SetValue("temo");
+            stringBox.SetValue("Temo");
             Console.WriteLine("Value (after SetValue): " + stringBox.GetValue());
 
-            var stringList = new List<string> { "manana", "anastasia", "toma", "mate" };
+            var stringList = new List<string> { "Manana", "Anastasia", "Toma", "Mate" };
             var intList = new List<int> { 1, 2, 3, 4 };
             int intCount = Utility.CountElementsAsInt(intList);
             int intstringCount = Utility.CountElementsAsInt(stringList);
